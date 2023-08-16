@@ -1,3 +1,5 @@
+CREATE DATABASE banco;
+
 create table cliente(
 	idcliente integer not null,
 	nome varchar(30) not null,
@@ -36,3 +38,5 @@ create table agencia(
 alter table investimento add column renda_fixa varchar(30);
 
 select * from investimento;
+
+CREATE SCHEMA Danielle;
